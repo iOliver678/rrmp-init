@@ -1,0 +1,945 @@
+[
+  {
+    "id": 1,
+    "name": "Yan Chen",
+    "courses": [
+      "CS175",
+      "CS154"
+    ],
+    "rating": "2.2/5.0"
+  },
+  {
+    "id": 2,
+    "name": "Michael Beeson",
+    "courses": [
+      "CS175",
+      "CS160",
+      "CS123A",
+      "CS49J"
+    ],
+    "rating": "3.1/5.0"
+  },
+  {
+    "id": 3,
+    "name": "Paul Nguyen",
+    "courses": [
+      "CS116A"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 4,
+    "name": "Augstin Araya",
+    "courses": [
+      "CS116A",
+      "CS271"
+    ],
+    "rating": "3.3/5.0"
+  },
+  {
+    "id": 5,
+    "name": "Nada Attar",
+    "courses": [
+      "CS175"
+    ],
+    "rating": "2.4/5.0"
+  },
+  {
+    "id": 6,
+    "name": "Kaushik Patra",
+    "courses": [
+      "CS49J",
+      "CS134"
+    ],
+    "rating": "2.3/5.0"
+  },
+  {
+    "id": 7,
+    "name": "Thaddeus Aid",
+    "courses": [
+      "CS175",
+      "CS160",
+      "CS151"
+    ],
+    "rating": "4.4/5.0"
+  },
+  {
+    "id": 8,
+    "name": "Katerina Potika",
+    "courses": [
+      "CS46A",
+      "CS49J"
+    ],
+    "rating": "3.4/5.0"
+  },
+  {
+    "id": 9,
+    "name": "Walter Kirchherr",
+    "courses": [
+      "CS123A"
+    ],
+    "rating": "3.2/5.0"
+  },
+  {
+    "id": 10,
+    "name": "Yulia Newton",
+    "courses": [
+      "CS116A",
+      "CS154"
+    ],
+    "rating": "4.7/5.0"
+  },
+  {
+    "id": 11,
+    "name": "Kevin Smith",
+    "courses": [
+      "CS271",
+      "CS151",
+      "CS175",
+      "CS160"
+    ],
+    "rating": "4.0/5.0"
+  },
+  {
+    "id": 12,
+    "name": "Joel Frank",
+    "courses": [
+      "CS49J",
+      "CS154",
+      "CS46A"
+    ],
+    "rating": "3.4/5.0"
+  },
+  {
+    "id": 13,
+    "name": "Ken Tsang",
+    "courses": [
+      "CS116A"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 14,
+    "name": "Prateek Jain",
+    "courses": [
+      "CS271"
+    ],
+    "rating": "2.1/5.0"
+  },
+  {
+    "id": 15,
+    "name": "Toshi Bhat",
+    "courses": [
+      "CS49J"
+    ],
+    "rating": "4.6/5.0"
+  },
+  {
+    "id": 16,
+    "name": "Apoorva Mohite",
+    "courses": [
+      "CS47"
+    ],
+    "rating": "3.3/5.0"
+  },
+  {
+    "id": 17,
+    "name": "Thomas Hilderbrand",
+    "courses": [
+      "CS271",
+      "CS160"
+    ],
+    "rating": "3.0/5.0"
+  },
+  {
+    "id": 18,
+    "name": "Natalie Linnell",
+    "courses": [
+      "CS271"
+    ],
+    "rating": "4.5/5.0"
+  },
+  {
+    "id": 19,
+    "name": "Margareta Ackerman",
+    "courses": [
+      "CS134"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 20,
+    "name": "Maryam Hasan",
+    "courses": [
+      "CS46A",
+      "CS151"
+    ],
+    "rating": "3.0/5.0"
+  },
+  {
+    "id": 21,
+    "name": "Reshaj Maskey",
+    "courses": [
+      "CS102",
+      "CS154",
+      "CS175"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 22,
+    "name": "Yonghwan Lim",
+    "courses": [
+      "CS134",
+      "CS160",
+      "CS271"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 23,
+    "name": "Sam Chen",
+    "courses": [
+      "CS146"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 24,
+    "name": "Diksha Kool",
+    "courses": [
+      "CS146",
+      "CS154",
+      "CS101"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 25,
+    "name": "Deep Shah",
+    "courses": [
+      "CS47",
+      "CS175"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 26,
+    "name": "Mengting Chang",
+    "courses": [
+      "CS271",
+      "CS151",
+      "CS116B"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 27,
+    "name": "Anant Shukla",
+    "courses": [
+      "CS102",
+      "CS151",
+      "CS123A",
+      "CS101"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 28,
+    "name": "Hema Nair",
+    "courses": [
+      "CS123A",
+      "CS146",
+      "CS175",
+      "CS47"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 29,
+    "name": "Saptarshi S. Sengupta",
+    "courses": [
+      "CS154",
+      "CS116A",
+      "CS123A",
+      "CS116B"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 30,
+    "name": "David Taylor",
+    "courses": [
+      "CS146",
+      "CS151"
+    ],
+    "rating": "2.8/5.0"
+  },
+  {
+    "id": 31,
+    "name": "Suneuy Kim",
+    "courses": [
+      "CS154"
+    ],
+    "rating": "3.8/5.0"
+  },
+  {
+    "id": 32,
+    "name": "Marty Froomin",
+    "courses": [
+      "CS160",
+      "CS134"
+    ],
+    "rating": "3.2/5.0"
+  },
+  {
+    "id": 33,
+    "name": "Chung-Wen Tsao",
+    "courses": [
+      "CS116B",
+      "CS271"
+    ],
+    "rating": "2.1/5.0"
+  },
+  {
+    "id": 34,
+    "name": "Frank Butt",
+    "courses": [
+      "CS151"
+    ],
+    "rating": "2.7/5.0"
+  },
+  {
+    "id": 35,
+    "name": "Robert Chun",
+    "courses": [
+      "CS49J",
+      "CS47",
+      "CS271",
+      "CS116A"
+    ],
+    "rating": "4.2/5.0"
+  },
+  {
+    "id": 36,
+    "name": "Jeff Smith",
+    "courses": [
+      "CS146",
+      "CS47",
+      "CS116B"
+    ],
+    "rating": "2.5/5.0"
+  },
+  {
+    "id": 37,
+    "name": "Benjamin Reed",
+    "courses": [
+      "CS146"
+    ],
+    "rating": "3.8/5.0"
+  },
+  {
+    "id": 38,
+    "name": "Mark Stamp",
+    "courses": [
+      "CS101",
+      "CS175"
+    ],
+    "rating": "4.4/5.0"
+  },
+  {
+    "id": 39,
+    "name": "Evan Merz",
+    "courses": [
+      "CS134",
+      "CS146",
+      "CS102"
+    ],
+    "rating": "3.0/5.0"
+  },
+  {
+    "id": 40,
+    "name": "Alexandra Chakarov",
+    "courses": [
+      "CS116B",
+      "CS175",
+      "CS154"
+    ],
+    "rating": "4.1/5.0"
+  },
+  {
+    "id": 41,
+    "name": "Vidya Rangasayee",
+    "courses": [
+      "CS116B",
+      "CS116A",
+      "CS134"
+    ],
+    "rating": "2.7/5.0"
+  },
+  {
+    "id": 42,
+    "name": "Vinh Phat",
+    "courses": [
+      "CS175"
+    ],
+    "rating": "2.4/5.0"
+  },
+  {
+    "id": 43,
+    "name": "Wendy Lee",
+    "courses": [
+      "CS49J",
+      "CS47"
+    ],
+    "rating": "4.7/5.0"
+  },
+  {
+    "id": 44,
+    "name": "Robert Bruce",
+    "courses": [
+      "CS160"
+    ],
+    "rating": "3.1/5.0"
+  },
+  {
+    "id": 45,
+    "name": "Qi Zhang",
+    "courses": [
+      "CS175",
+      "CS46A",
+      "CS151"
+    ],
+    "rating": "1.9/5.0"
+  },
+  {
+    "id": 46,
+    "name": "Chandrasekhar Mukherjee",
+    "courses": [
+      "CS154",
+      "CS134",
+      "CS160",
+      "CS46A"
+    ],
+    "rating": "1.0/5.0"
+  },
+  {
+    "id": 47,
+    "name": "Bryan Burlingame",
+    "courses": [
+      "CS146",
+      "CS101",
+      "CS175"
+    ],
+    "rating": "4.5/5.0"
+  },
+  {
+    "id": 48,
+    "name": "Nooshin Tajik",
+    "courses": [
+      "CS101",
+      "CS47",
+      "CS116B"
+    ],
+    "rating": "2.8/5.0"
+  },
+  {
+    "id": 49,
+    "name": "Genya Ishigaki",
+    "courses": [
+      "CS151",
+      "CS160"
+    ],
+    "rating": "3.5/5.0"
+  },
+  {
+    "id": 50,
+    "name": "Harmandeep Gill",
+    "courses": [
+      "CS271"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 51,
+    "name": "Sanjay Garje",
+    "courses": [
+      "CS154",
+      "CS123A"
+    ],
+    "rating": "2.8/5.0"
+  },
+  {
+    "id": 52,
+    "name": "Tanuja Phadke",
+    "courses": [
+      "CS271",
+      "CS134"
+    ],
+    "rating": "1.7/5.0"
+  },
+  {
+    "id": 53,
+    "name": "Nidhi Zare",
+    "courses": [
+      "CS271",
+      "CS102",
+      "CS116B",
+      "CS134"
+    ],
+    "rating": "3.3/5.0"
+  },
+  {
+    "id": 54,
+    "name": "Alberto Prieto",
+    "courses": [
+      "CS134",
+      "CS160"
+    ],
+    "rating": "1.0/5.0"
+  },
+  {
+    "id": 55,
+    "name": "Ronald Gutman",
+    "courses": [
+      "CS134"
+    ],
+    "rating": "1.0/5.0"
+  },
+  {
+    "id": 56,
+    "name": "Alpha Luk",
+    "courses": [
+      "CS154",
+      "CS116A",
+      "CS146"
+    ],
+    "rating": "3.5/5.0"
+  },
+  {
+    "id": 57,
+    "name": "Abhishek Gaikwad",
+    "courses": [
+      "CS175",
+      "CS154",
+      "CS123A",
+      "CS116B"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 58,
+    "name": "Gayathri Namasivayam",
+    "courses": [
+      "CS116B",
+      "CS146",
+      "CS49J"
+    ],
+    "rating": "1.5/5.0"
+  },
+  {
+    "id": 59,
+    "name": "Thadeus Aid",
+    "courses": [
+      "CS123A"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 60,
+    "name": "Sanket Kulkarni",
+    "courses": [
+      "CS123A",
+      "CS146",
+      "CS49J"
+    ],
+    "rating": "1.0/5.0"
+  },
+  {
+    "id": 61,
+    "name": "Narayan Balasubramanian",
+    "courses": [
+      "CS154",
+      "CS102",
+      "CS151",
+      "CS116B"
+    ],
+    "rating": "1.0/5.0"
+  },
+  {
+    "id": 62,
+    "name": "Saptarshi Sengupta",
+    "courses": [
+      "CS47",
+      "CS134"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 63,
+    "name": "Vijay Eranti",
+    "courses": [
+      "CS116B"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 64,
+    "name": "Virginia Lehmkuhl-Dakhwe",
+    "courses": [
+      "CS116A"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 65,
+    "name": "Kwang-pil Sung",
+    "courses": [
+      "CS49J",
+      "CS151",
+      "CS134",
+      "CS146"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 66,
+    "name": "Prakash Atawale",
+    "courses": [
+      "CS116B",
+      "CS46A",
+      "CS116A",
+      "CS271"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 67,
+    "name": "Anant Dhayal",
+    "courses": [
+      "CS116B",
+      "CS46A",
+      "CS116A"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 68,
+    "name": "Pranathi Kunadi",
+    "courses": [
+      "CS151",
+      "CS46A"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 69,
+    "name": "Ethel Tshukudu",
+    "courses": [
+      "CS46A",
+      "CS175",
+      "CS160"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 70,
+    "name": "Ricky  Chan",
+    "courses": [
+      "CS46A",
+      "CS101",
+      "CS116A",
+      "CS146"
+    ],
+    "rating": "4.3/5.0"
+  },
+  {
+    "id": 71,
+    "name": "Sriram Rao",
+    "courses": [
+      "CS160",
+      "CS151",
+      "CS175"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 72,
+    "name": "Mike (Ching-seh) Wu",
+    "courses": [
+      "CS116B"
+    ],
+    "rating": "3.8/5.0"
+  },
+  {
+    "id": 73,
+    "name": "Ty Lin",
+    "courses": [
+      "CS49J",
+      "CS151",
+      "CS101",
+      "CS47"
+    ],
+    "rating": "1.4/5.0"
+  },
+  {
+    "id": 74,
+    "name": "Jon Pearce",
+    "courses": [
+      "CS46A",
+      "CS134"
+    ],
+    "rating": "3.4/5.0"
+  },
+  {
+    "id": 75,
+    "name": "Philip Heller",
+    "courses": [
+      "CS101",
+      "CS46A",
+      "CS134",
+      "CS116B"
+    ],
+    "rating": "3.9/5.0"
+  },
+  {
+    "id": 76,
+    "name": "Nadine Ferguson",
+    "courses": [
+      "CS46A",
+      "CS271"
+    ],
+    "rating": "3.4/5.0"
+  },
+  {
+    "id": 77,
+    "name": "Natasha Bozovic",
+    "courses": [
+      "CS116A"
+    ],
+    "rating": "2.7/5.0"
+  },
+  {
+    "id": 78,
+    "name": "Kathy Tran",
+    "courses": [
+      "CS134",
+      "CS146",
+      "CS101",
+      "CS116A"
+    ],
+    "rating": "2.6/5.0"
+  },
+  {
+    "id": 79,
+    "name": "Paul Sanghera",
+    "courses": [
+      "CS47",
+      "CS154",
+      "CS175",
+      "CS271"
+    ],
+    "rating": "2.9/5.0"
+  },
+  {
+    "id": 80,
+    "name": "William Andreopoulos",
+    "courses": [
+      "CS175",
+      "CS151"
+    ],
+    "rating": "4.1/5.0"
+  },
+  {
+    "id": 81,
+    "name": "Melody Moh",
+    "courses": [
+      "CS116A",
+      "CS123A",
+      "CS160"
+    ],
+    "rating": "3.2/5.0"
+  },
+  {
+    "id": 82,
+    "name": "Tahereh Arabghalizi",
+    "courses": [
+      "CS116A",
+      "CS160",
+      "CS154"
+    ],
+    "rating": "2.1/5.0"
+  },
+  {
+    "id": 83,
+    "name": "Anna Shaverdian",
+    "courses": [
+      "CS116B",
+      "CS47"
+    ],
+    "rating": "3.8/5.0"
+  },
+  {
+    "id": 84,
+    "name": "Mike Wood",
+    "courses": [
+      "CS175",
+      "CS116B"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 85,
+    "name": "Feiling Jia",
+    "courses": [
+      "CS123A",
+      "CS134",
+      "CS101"
+    ],
+    "rating": "2.7/5.0"
+  },
+  {
+    "id": 86,
+    "name": "Ashish Khanchandani",
+    "courses": [
+      "CS123A"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 87,
+    "name": "Tran Duc",
+    "courses": [
+      "CS160",
+      "CS154",
+      "CS47",
+      "CS123A"
+    ],
+    "rating": "2.3/5.0"
+  },
+  {
+    "id": 88,
+    "name": "Auston Davis",
+    "courses": [
+      "CS116B",
+      "CS154"
+    ],
+    "rating": "3.0/5.0"
+  },
+  {
+    "id": 89,
+    "name": "James Casaletto",
+    "courses": [
+      "CS146"
+    ],
+    "rating": "4.7/5.0"
+  },
+  {
+    "id": 90,
+    "name": "Punit Sundar",
+    "courses": [
+      "CS151",
+      "CS123A",
+      "CS116B",
+      "CS154"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 91,
+    "name": "Peter McGlaughlin",
+    "courses": [
+      "CS146",
+      "CS134",
+      "CS116B"
+    ],
+    "rating": "3.7/5.0"
+  },
+  {
+    "id": 92,
+    "name": "Tsau Lin",
+    "courses": [
+      "CS116A",
+      "CS154",
+      "CS151"
+    ],
+    "rating": "3.5/5.0"
+  },
+  {
+    "id": 93,
+    "name": "John Pearce",
+    "courses": [
+      "CS154",
+      "CS47",
+      "CS160"
+    ],
+    "rating": "3.0/5.0"
+  },
+  {
+    "id": 94,
+    "name": "Michael McThrow",
+    "courses": [
+      "CS116A",
+      "CS102",
+      "CS47"
+    ],
+    "rating": "2.3/5.0"
+  },
+  {
+    "id": 95,
+    "name": "Doug Case",
+    "courses": [
+      "CS175",
+      "CS116A"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 96,
+    "name": "Mohammad Masum",
+    "courses": [
+      "CS154",
+      "CS160",
+      "CS47"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 97,
+    "name": "Guannan Liu",
+    "courses": [
+      "CS271"
+    ],
+    "rating": "5.0/5.0"
+  },
+  {
+    "id": 98,
+    "name": "Rashi Raghulan",
+    "courses": [
+      "CS123A",
+      "CS102",
+      "CS154"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 99,
+    "name": "Tahereh Aghdasifar",
+    "courses": [
+      "CS123A",
+      "CS101",
+      "CS116A",
+      "CS46A"
+    ],
+    "rating": "0.0/5.0"
+  },
+  {
+    "id": 100,
+    "name": "Chinmay Nilesh Mahagaonkar",
+    "courses": [
+      "CS49J",
+      "CS116A"
+    ],
+    "rating": "0.0/5.0"
+  }
+]
