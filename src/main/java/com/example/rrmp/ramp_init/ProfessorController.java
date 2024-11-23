@@ -15,35 +15,50 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
+@CrossOrigin(origins = { "http://localhost:5173", "http://localhost:5174" })
 public class ProfessorController {
 
-    private final ProfessorBST professorBST = new ProfessorBST();
+    private final ProfessorBST professorBST;
 
     public ProfessorController() {
+        this.professorBST = new ProfessorBST();
         loadProfessors();
     }
 
     private void loadProfessors() {
         ObjectMapper mapper = new ObjectMapper();
         try {
-            InputStream inputStream = new ClassPathResource("professors.json").getInputStream();
-            List<Professor> professors = mapper.readValue(inputStream, new TypeReference<List<Professor>>() {});
+            InputStream inputStream = new ClassPathResource("professors-all.json").getInputStream();
+            List<Professor> professors = mapper.readValue(inputStream, new TypeReference<List<Professor>>() {
+            });
+
+            System.out.println("Loaded " + professors.size() + " professors from JSON");
 
             for (Professor prof : professors) {
-                professorBST.insert(prof);
+                if (prof.getNumericRating() > 0) {
+                    professorBST.insert(prof);
+                    System.out.println("Inserted professor: " + prof.getTFname() + " " + prof.getTLname() +
+                            " Rating: " + prof.getOverall_rating() +
+                            " NumRatings: " + prof.getTNumRatings() +
+                            " Class: " + prof.getRating_class());
+                }
             }
+
+            System.out.println("BST construction completed");
         } catch (IOException e) {
+            System.err.println("Error loading professors: " + e.getMessage());
             e.printStackTrace();
         }
     }
-    @CrossOrigin(origins = "http://localhost:5173")
+
     @GetMapping("/professors")
     public List<Professor> getProfessorsByCourse(@RequestParam String course) {
-        List<Professor> sortedProfessors = professorBST.getSortedProfessors();
-
-        return professorBST.getProfessorsInDescendingOrder()
+        List<Professor> professors = professorBST.getProfessorsInDescendingOrder()
                 .stream()
                 .filter(professor -> professor.getCourses().contains(course))
                 .collect(Collectors.toList());
+
+        System.out.println("Found " + professors.size() + " professors for course: " + course);
+        return professors;
     }
 }

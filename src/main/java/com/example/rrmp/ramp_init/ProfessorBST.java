@@ -16,18 +16,22 @@ public class ProfessorBST {
     }
 
     public void insert(Professor professor) {
-        root = insertRec(root, professor);
+        if (professor.getNumericRating() > 0) { // Only insert professors with valid ratings
+            root = insertRec(root, professor);
+        }
     }
 
     private BSTNode insertRec(BSTNode root, Professor professor) {
         if (root == null) {
-            root = new BSTNode(professor);
-            return root;
+            return new BSTNode(professor);
         }
 
-        if (professor.getNumericRating() < root.professor.getNumericRating()) {
+        double profRating = professor.getNumericRating();
+        double rootRating = root.professor.getNumericRating();
+
+        if (profRating < rootRating) {
             root.left = insertRec(root.left, professor);
-        } else if (professor.getNumericRating() > root.professor.getNumericRating()) {
+        } else {
             root.right = insertRec(root.right, professor);
         }
 
@@ -37,7 +41,8 @@ public class ProfessorBST {
     public void loadFromJson(String filePath) {
         ObjectMapper mapper = new ObjectMapper();
         try {
-            List<Professor> professors = mapper.readValue(new File(filePath), new TypeReference<List<Professor>>() {});
+            List<Professor> professors = mapper.readValue(new File(filePath), new TypeReference<List<Professor>>() {
+            });
             for (Professor prof : professors) {
                 insert(prof);
             }
@@ -60,6 +65,7 @@ public class ProfessorBST {
             inOrderRec(node.right, result);
         }
     }
+
     public List<Professor> getProfessorsInDescendingOrder() {
         List<Professor> result = new ArrayList<>();
         reverseInOrderRec(root, result);
