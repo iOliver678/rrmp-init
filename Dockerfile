@@ -1,9 +1,7 @@
-# Stage 1: Build React + Vite frontend
+# Stage 1: Build React frontend
 FROM node:18 AS frontend-builder
 
 WORKDIR /app/frontend
-
-# Copy only necessary files
 COPY frontend/package*.json ./
 COPY frontend/ ./
 
@@ -14,19 +12,17 @@ RUN npm run build
 FROM maven:3.8.8-eclipse-temurin-17 AS backend-builder
 
 WORKDIR /app/backend
-
 COPY pom.xml ./
 COPY src ./src/
 
 RUN mvn clean package -DskipTests
 
-# Stage 3: Final image
+# Stage 3: Combine frontend and backend
 FROM openjdk:17-jdk-slim
 
 WORKDIR /app
-
 COPY --from=backend-builder /app/backend/target/*.jar app.jar
-COPY --from=frontend-builder /app/frontend/dist ./frontend
+COPY --from=frontend-builder /app/frontend/dist ./static
 
 EXPOSE 8080
 
