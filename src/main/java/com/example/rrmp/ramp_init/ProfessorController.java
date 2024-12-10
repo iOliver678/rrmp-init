@@ -15,13 +15,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = { "http://localhost:5173", "http://localhost:5174" })
 public class ProfessorController {
-
-    @GetMapping("/")
-    public String index() {
-        return "index.html"; // Serves React's index.html
-    }
 
     private final ProfessorBST professorBST;
 

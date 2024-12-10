@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class WebController {
 
-    @RequestMapping(value = { "/", "/prof", "/other-route/**" }) // Add other routes as needed
-    public String index() {
-        return "forward:/index.html"; // Forward to index.html
+    @RequestMapping(value = {"/", "/prof", "/other-routes"})
+    public String forwardToReact() {
+        return "forward:/index.html";
     }
 }
