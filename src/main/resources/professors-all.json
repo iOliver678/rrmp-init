@@ -21813,11 +21813,11 @@
     "tMiddlename": "",
     "tLname": "Chan",
     "tid": 3038081,
-    "tNumRatings": 2,
-    "rating_class": "good",
+    "tNumRatings": 5,
+    "rating_class": "average",
     "contentType": "TEACHER",
     "categoryType": "PROFESSOR",
-    "overall_rating": "4.8",
+    "overall_rating": "3.3",
     "courseCodes": [
       {
         "courseCount": 6,
