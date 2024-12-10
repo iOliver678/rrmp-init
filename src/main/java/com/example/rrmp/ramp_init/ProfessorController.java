@@ -37,10 +37,6 @@ public class ProfessorController {
             for (Professor prof : professors) {
                 if (prof.getNumericRating() > 0) {
                     professorBST.insert(prof);
-                    System.out.println("Inserted professor: " + prof.getTFname() + " " + prof.getTLname() +
-                            " Rating: " + prof.getOverall_rating() +
-                            " NumRatings: " + prof.getTNumRatings() +
-                            " Class: " + prof.getRating_class());
                 }
             }
 
