@@ -38,7 +38,6 @@ COPY --from=backend-builder /app/backend/target/*.jar app.jar
 # Copy React build files to static folder
 COPY --from=frontend-builder /app/frontend/dist ./static
 
-EXPOSE 8080
 
 # Run the Spring Boot application
 ENTRYPOINT ["java", "-jar", "app.jar"]
