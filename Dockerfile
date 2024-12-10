@@ -10,7 +10,7 @@ COPY frontend/ ./
 
 # Install dependencies and build the app
 RUN npm install
-RUN npm run build
+RUN npm run dev
 
 # Stage 2: Build Java Spring backend
 FROM maven:3.8.8-eclipse-temurin-17 AS backend-builder
