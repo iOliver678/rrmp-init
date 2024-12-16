@@ -1,6 +1,5 @@
 package com.example.rrmp.ramp_init;
 
-import com.example.rrmp.ramp_init.Professor;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.core.io.ClassPathResource;
@@ -12,7 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
-import java.util.stream.Collectors;
+
+/**
+ * REST Controller for handling professor-related HTTP requests.
+ */
 
 @RestController
 @CrossOrigin(origins = { "http://localhost:5173", "http://localhost:5174" })
@@ -20,11 +22,18 @@ public class ProfessorController {
 
     private final ProfessorBST professorBST;
 
+    /**
+     * Initializes the controller and loads professor data.
+     */
     public ProfessorController() {
         this.professorBST = new ProfessorBST();
         loadProfessors();
     }
 
+     /**
+     * Loads professor data from JSON file and initializes the BST.
+     * Only professors with valid ratings are inserted into the BST.
+     */
     private void loadProfessors() {
         ObjectMapper mapper = new ObjectMapper();
         try {
@@ -47,6 +56,12 @@ public class ProfessorController {
         }
     }
 
+    /**
+     * Searches for professors teaching a specific course.
+     *
+     * @param course The course name to search for
+     * @return List<Professor> containing professors teaching the specified course
+     */
     @GetMapping("/professors")
     public List<Professor> searchByCourse(@RequestParam String course) {
         return professorBST.searchByCourse(course);
