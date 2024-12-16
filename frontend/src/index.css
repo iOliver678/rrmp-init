@@ -1,0 +1,55 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; /* Global font settings */
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark; /* Support for light and dark mode */
+  background-color: #0055A2; /* Default background color */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #0055A2; /* Default link color */
+  text-decoration: inherit; /* Keeps existing text decoration */
+}
+
+a:hover {
+  color: #E5A823; /* Changes link color on hover */
+}
+
+button {
+  border-radius: 8px; /* Adds rounded corners */
+  border: 1px solid transparent; /* Transparent border by default */
+  padding: 0.6em 1.2em; /* Standard button padding */
+  font-size: 1em;
+  font-weight: 500; /* Bold text */
+  font-family: inherit;
+  background-color: #E5A823; /* Default button background */
+  color: #0055A2; /* Default button text color */
+  cursor: pointer; /* Changes cursor on hover */
+  transition: all 0.25s; /* Smooth hover transition */
+}
+
+button:hover {
+  background-color: #c48f1d; /* Darker button background on hover */
+  border-color: #0055A2; /* Adds border color on hover */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #0055A2; /* Text color in light mode */
+    background-color: #ffffff; /* Background color for light mode */
+  }
+  a:hover {
+    color: #E5A823; /* Hover effect remains consistent */
+  }
+  button {
+    background-color: #E5A823; /* Light mode button background */
+    color: #0055A2; /* Light mode button text color */
+  }
+}

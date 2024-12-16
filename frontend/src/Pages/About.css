@@ -1,0 +1,44 @@
+.about-page {
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+}
+
+.about-page video {
+    width: 100%;
+    max-width: 800px; 
+    margin-bottom: 20px; 
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.image-item {
+    flex: 1 1 150px; 
+    max-width: 200px; 
+    text-align: center; 
+}
+
+.image-item img {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures cropping of the image */
+    border-radius: 8px; 
+    overflow: hidden; /* Prevents image overflow */
+}
+
+.image-item h1 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #FFF;
+}
+
+.image-item p {
+    margin-top: 10px; 
+    font-size: 14px; 
+    color: #FFF; 
+}

@@ -1,0 +1,101 @@
+/* Set full height and width for the root elements */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+/* Universal reset for margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  background-color: #0055A2; /* Background in SJSU Blue */
+  color: #ffffff; /* Text color */
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background logo styling */
+.background-logo {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0.1; /* Low opacity for subtle effect */
+  pointer-events: none; /* Makes it non-interactive */
+}
+
+.background-logo img {
+  width: 500px; /* Adjustable logo size */
+  height: auto;
+}
+
+/* Ensure header and button appear above the logo */
+.header, .startButton {
+  position: relative;
+  z-index: 2;
+}
+
+/* Header styling */
+.header {
+  margin-bottom: 20px;
+  padding: 15px 30px;
+  border: 2px solid #E5A823; /* Border in SJSU Gold */
+  border-radius: 12px;
+  background-color: rgba(229, 168, 35, 0.1); /* Semi-transparent background */
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.header:hover {
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+/* Title text styling */
+.title {
+  font-size: 36px; /* Large font size */
+  font-weight: bold;
+  color: #ffffff; /* White text */
+}
+
+/* Start button styling */
+.startButton {
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0055A2; /* Text in SJSU Blue */
+  background-color: #E5A823; /* Button background in SJSU Gold */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Start button hover effect */
+.startButton:hover {
+  background-color: #c48f1d; /* Darker gold background */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Deeper shadow */
+}
+
+/* Start button active effect */
+.startButton:active {
+  background-color: #a67918; /* Even darker gold */
+  transform: scale(0.98); /* Slight size reduction for click feedback */
+}
