@@ -79,4 +79,20 @@ public class ProfessorBST {
             reverseInOrderRec(node.left, result);
         }
     }
+
+    public List<Professor> searchByCourse(String course) {
+        List<Professor> result = new ArrayList<>();
+        searchByCourseRec(root, course, result); // Assuming `root` is a field in ProfessorBST
+        return result;
+    }
+
+    private void searchByCourseRec(BSTNode node, String course, List<Professor> result) {
+        if (node != null) {
+            searchByCourseRec(node.right, course, result);
+            if (node.professor.getCourses().contains(course)) {
+                result.add(node.professor);
+            }
+            searchByCourseRec(node.left, course, result);
+        }
+    }
 }

@@ -48,13 +48,8 @@ public class ProfessorController {
     }
 
     @GetMapping("/professors")
-    public List<Professor> getProfessorsByCourse(@RequestParam String course) {
-        List<Professor> professors = professorBST.getProfessorsInDescendingOrder()
-                .stream()
-                .filter(professor -> professor.getCourses().contains(course))
-                .collect(Collectors.toList());
-
-        System.out.println("Found " + professors.size() + " professors for course: " + course);
-        return professors;
+    public List<Professor> searchByCourse(@RequestParam String course) {
+        return professorBST.searchByCourse(course);
     }
+
 }
