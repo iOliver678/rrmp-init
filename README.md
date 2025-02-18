@@ -1,6 +1,7 @@
 # Reverse Rate My Professor  
 
 *A course-first professor ranking web app*  
+![ViteReact-17February2025-ezgif com-speed](https://github.com/user-attachments/assets/085a07bb-e6b0-46bc-a40d-ab1f9d6501da)
 
 ## 📌 Overview  
 
